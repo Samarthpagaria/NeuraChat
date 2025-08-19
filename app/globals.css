@@ -1,3 +1,17 @@
+/* Custom selection color: black background, white text */
+::selection {
+  background: #000 !important;
+  color: #fff !important;
+}
+::-moz-selection {
+  background: #000 !important;
+  color: #fff !important;
+}
+/* Custom selection color: black background, white text */
+::selection {
+  background: #000;
+  color: #fff;
+}
 @import "tailwindcss";
 
 :root {
@@ -24,3 +38,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Show only the draggable thumb, hide track & arrows */
+.scrollbar-thumb-only::-webkit-scrollbar {
+  width: 6px;  /* thin scrollbar */
+}
+
+.scrollbar-thumb-only::-webkit-scrollbar-track {
+  background: transparent !important; /* hide track */
+}
+
+.scrollbar-thumb-only::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5); /* visible tab */
+  border-radius: 9999px;
+}
+
+.scrollbar-thumb-only::-webkit-scrollbar-button {
+  display: none; /* hide up/down arrows */
+}
+
+/* Firefox support */
+.scrollbar-thumb-only {
+  scrollbar-width: thin; /* thin scrollbar */
+  scrollbar-color: rgba(255,255,255,0.5) transparent; /* thumb visible, track hidden */
+}
+
