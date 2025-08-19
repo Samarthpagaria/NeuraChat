@@ -26,6 +26,12 @@ NeuraChat demonstrates how to combine modern web technologies with AI to create 
 - No persistent storage (chats are not saved)
 - Not intended for production use
 
+### Tech Stack
+
+-Next.js – React framework for frontend and backend routes
+-React – Component-based UI library
+-Gemini API – AI model integration for chat responses
+
 ---
 
 ## How to Run the Project
@@ -37,28 +43,27 @@ git clone https://github.com/your-username/neurachat.git
 cd neurachat
 ```
 
-2.**Install dependencies**
+2. **Install dependencies**
 
 ```bash
 npm install
 ```
 
-3.**Set up environment variables**
--Create a file named .env.local in the root directory and add your Gemini API key:
-""GEMINI_API_KEY=your_api_key_here""
+3. **Set up environment variables**
+
+-Create a file named .env.local in the root directory and add your Gemini API key
+
+```bash
+GEMINI_API_KEY=your_api_key_here
+```
+
 -🔑 You can obtain a Gemini API key from the official Google AI Studio or the relevant Gemini developer portal.
 
-3.**Run the development server**
+4. **Run the development server**
 
 ```bash
 npm run dev
 ```
 
-4.Open your browser and go to http://localhost:3000
-to start using NeuraChat.
-
-##Tech Stack
-
-1.Next.js – React framework for frontend and backend routes
-2.React – Component-based UI library
-3.Gemini API – AI model integration for chat responses
+4. **Open your browser and go to http://localhost:3000
+   to start using NeuraChat.**
