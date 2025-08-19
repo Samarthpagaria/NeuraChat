@@ -28,9 +28,9 @@ NeuraChat demonstrates how to combine modern web technologies with AI to create 
 
 ### Tech Stack
 
--Next.js – React framework for frontend and backend routes
--React – Component-based UI library
--Gemini API – AI model integration for chat responses
+- Next.js – React framework for frontend and backend routes
+- React – Component-based UI library
+- Gemini API – AI model integration for chat responses
 
 ---
 
@@ -51,13 +51,13 @@ npm install
 
 3. **Set up environment variables**
 
--Create a file named .env.local in the root directory and add your Gemini API key
+- Create a file named .env.local in the root directory and add your Gemini API key
 
 ```bash
 GEMINI_API_KEY=your_api_key_here
 ```
 
--🔑 You can obtain a Gemini API key from the official Google AI Studio or the relevant Gemini developer portal.
+- 🔑 You can obtain a Gemini API key from the official Google AI Studio or the relevant Gemini developer portal.
 
 4. **Run the development server**
 
@@ -67,3 +67,21 @@ npm run dev
 
 4. **Open your browser and go to http://localhost:3000
    to start using NeuraChat.**
+
+---
+
+## Demo
+
+Here’s a screenshot of **NeuraChat** in action:
+
+1. **Home Page**
+
+   ![NeuraChat Home Page Demo](/public/demo/neuraChat_HomePage.png)
+
+2. **Chat Page**
+
+   ![NeuraChat Chat Page Demo](/public/demo/neuraChat_chatPage.png)
+
+3. **Documentation Page**
+
+   ![NeuraChat Home Page Demo](/public/demo/neuraChat_documentationPage.png)
