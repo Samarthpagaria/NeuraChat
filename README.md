@@ -74,14 +74,14 @@ npm run dev
 
 Here’s a screenshot of **NeuraChat** in action:
 
-1. **Home Page**
+## **Home Page**
 
-   ![NeuraChat Home Page Demo](/public/demo/neuraChat_HomePage.png)
+![NeuraChat Home Page Demo](/public/demo/neuraChat_HomePage.png)
 
-2. **Chat Page**
+## **Chat Page**
 
-   ![NeuraChat Chat Page Demo](/public/demo/neuraChat_chatPage.png)
+![NeuraChat Chat Page Demo](/public/demo/neuraChat_chatPage.png)
 
-3. **Documentation Page**
+## **Documentation Page**
 
-   ![NeuraChat Home Page Demo](/public/demo/neuraChat_documentationPage.png)
+![NeuraChat Home Page Demo](/public/demo/neuraChat_documentationPage.png)
