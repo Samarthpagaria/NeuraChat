@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NeuraChat
 
-## Getting Started
+NeuraChat is a learning-focused **AI Chat Application** built with **Next.js** and powered by the **Gemini API**.  
+It delivers intelligent, real-time conversations with streaming responses, providing a smooth and interactive chat experience.
 
-First, run the development server:
+This project was created purely for **educational purposes** to explore how to integrate AI APIs into web applications, implement streaming responses, and understand Next.js features like API routes and server-side rendering.
+
+---
+
+## Project Documentation
+
+### Overview
+
+NeuraChat demonstrates how to combine modern web technologies with AI to create an interactive chat system. The app connects with the Gemini API to generate AI-driven responses and streams them in real time.
+
+### Features
+
+- AI-powered conversations using Gemini API
+- Real-time streaming of responses
+- Built with Next.js for frontend and backend integration
+- Simple and minimal design without authentication or databases
+
+### Limitations
+
+- No user authentication
+- No persistent storage (chats are not saved)
+- Not intended for production use
+
+---
+
+## How to Run the Project
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/neurachat.git
+cd neurachat
+```
+
+2.**Install dependencies**
+
+```bash
+npm install
+```
+
+3.**Set up environment variables**
+-Create a file named .env.local in the root directory and add your Gemini API key:
+""GEMINI_API_KEY=your_api_key_here""
+-🔑 You can obtain a Gemini API key from the official Google AI Studio or the relevant Gemini developer portal.
+
+3.**Run the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4.Open your browser and go to http://localhost:3000
+to start using NeuraChat.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+##Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.Next.js – React framework for frontend and backend routes
+2.React – Component-based UI library
+3.Gemini API – AI model integration for chat responses
